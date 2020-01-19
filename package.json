@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "nestjs": "0.0.1"
   },
   "devDependencies": {
     "@types/jest": "^24.9.0",
