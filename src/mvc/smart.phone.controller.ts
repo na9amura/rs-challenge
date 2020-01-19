@@ -27,6 +27,10 @@ export class SmartPhoneService {
   }
 
   private isValid(sf: SmartPhoneModel): boolean {
+    /* 他のチェックもすべきですけど他のはちょっとややこしい
+    例えば　記入した　メーカー、機種、色　やらの Smartphoneが本当にあるのか 
+    綴りやらの場合　ー　そんなSmartPhoneはないはず。
+    Samsung Galaxy の　iOS 10 OS　の携帯が存在しないでしょう。 */
     if (sf.releaseDate < new Date()) {
       return true;
     } else {
