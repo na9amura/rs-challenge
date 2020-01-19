@@ -60,4 +60,5 @@ export class HttpResponse {
     this.statusCode = statusCode;
     this.message = message;
   }
+  //　この帰り値の後のこともFrameworkに任せます
 }
