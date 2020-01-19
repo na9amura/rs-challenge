@@ -1,7 +1,6 @@
 # rs-challenge
 
 単体テストをRunするために　
-
-`git pull`
-`npm install`
-`npx jest`
+``git pull``
+``npm install``
+``npx jest``
